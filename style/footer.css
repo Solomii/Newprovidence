@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  margin: 0 auto;
+  max-width: 1170px;
+  line-height: 1;
+}
+
+/* First SECTION */
+.footer_section {
+  border-top: 0.3px #d8dbe2 ridge;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 120px;
+  font-family: "Lato", sans-serif;
+}
+
+.footer_section_social {
+  margin-top: 88px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 300px;
+  margin-left: 10px;
+}
+
+.footer_social_text {
+  margin-top: 20px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: #8c8f94;
+  font-weight: 400;
+  width: 270px;
+  height: 116px;
+  text-align: left;
+}
+
+.footer_social_button {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #231f20;
+  position: relative;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  height: 45px;
+  width: 145px;
+}
+
+.footer_button_items {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer_button_li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.footer_social_button .footer_apple_in_btn {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
+
+.footer_button_p1 .footer_button_p2 {
+  position: absolute;
+  left: 70px;
+}
+
+.footer_button_p1 {
+  top: 20px;
+  font-size: 10px;
+  text-align: end;
+}
+
+.footer_button_p2 {
+  top: 35px;
+  font-size: 16px;
+}
+
+.footer_social_button:hover {
+  background-color: #fff;
+  color: #231f20;
+  border: 1px solid #231f20;
+}
+
+.footer_social_button:active {
+  transform: translateY(4px);
+  box-shadow: 0 3px #26272d;
+}
+
+.footer_social_box_icons {
+  padding-top: 30px;
+}
+
+.footer_social_icon {
+  padding-right: 20px;
+  color: #8c8f94;
+}
+
+.footer_social_icon:hover {
+  color: #267df4;
+}
+
+.footer_contant {
+  display: flex;
+  margin-top: 88px;
+}
+
+.footer_boxs_menu {
+  margin-right: 60px;
+}
+
+.footer_boxs_items {
+  list-style: none;
+}
+
+.footer_menu {
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 22px;
+  color: #26272d;
+  font-weight: 700;
+}
+
+.footer_text {
+  font-size: 16px;
+  line-height: 36px;
+  color: #8c8f94;
+  font-weight: 400;
+}
+/* Second  SECTION */
+.footer_section_two {
+  border-top: 0.3px #d8dbe2 solid;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_section_two_http {
+  display: flex;
+  margin-top: 24px;
+  margin-bottom: 25px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #8c8f94;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.footer_http {
+  color: #3b55e6;
+}
+
+.footer_http:hover {
+  color: #267df4;
+}
+
+.footer_section_two_signature {
+  display: flex;
+  font-size: 9px;
+  letter-spacing: 1px;
+  line-height: 22px;
+  color: #26272d;
+  font-weight: 700;
+  margin-bottom: 25px;
+  margin-top: 24px;
+  margin-right: 10px;
+  font-family: "Lato", sans-serif;
+}
+
+.footer_signature_text {
+  padding-top: 18px;
+}
+
+@media screen and (max-width: 1098px) {
+  .footer_contant {
+    margin-left: 0px;
+  }
+
+  .footer_section_social {
+    margin-right: 150px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .footer_section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .footer_section_social {
+    text-align: center;
+    align-items: center;
+    margin-right: 0;
+    margin-left: 0px;
+  }
+
+  .footer_contant {
+    margin-right: 0px;
+    margin-top: 30px;
+    padding: 20px;
+  }
+
+  .footer_social_text {
+    text-align: center;
+  }
+
+  .footer_social_box_icons {
+    margin-top: 20px;
+  }
+
+  .footer_boxs_menu {
+    margin-right: 30px;
+    padding: 10px;
+  }
+
+  .footer_section_two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer_section_two_signature {
+    margin-top: 0;
+  }
+
+  .footer_section_two_http {
+    margin-left: 0px;
+  }
+
+  .footer_section_two_signature {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .footer_section {
+    margin-bottom: 0;
+  }
+
+  .footer_boxs_menu {
+    margin-right: 0px;
+  }
+
+  .footer_contant {
+    display: inline;
+    text-align: center;
+  }
+}

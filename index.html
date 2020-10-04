@@ -1,76 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!-- font-family: 'Lato', sans-serif; -->
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font-family: 'Lato', sans-serif; -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- font-family: 'Varela Round', sans-serif; -->
-    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="./style/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style/header.css" />
+    <link rel="stylesheet" href="./style/footer.css">
     <title>NEWPROVIDENCE</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- #1 -->
     <header>
-
+       <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+            <a class="first_logo " href=""> <img src="./img/header_footer_logo.png" alt=""></a>
+            <div class="menu__box">
+                <div class="menu_items">
+                    <a name="" class="menu__item" href="">Tour</a>
+                    <a class="menu__item" href="">Features</a>
+                    <a class="menu__item" href="">Pricing</a>
+                </div>
+                <div>
+                    <a class="second_logo" href=""> <img src="./img/header_footer_logo.png" alt=""></a>
+                </div>
+                <div class="menu_items">
+                    <a class="menu__item" href="">Help</a>
+                    <a class="menu__item" href="#footer_href">Contacts</a>
+                     <button class="header_menu_button">
+              <i class="fa fa-apple fa-fg header_apple"  aria-hidden="true" ></i>
+            <span class="header_button_p">Get App</span>
+          </button>
+                </div>
+            </div>
+        </div>
+        <div class="header_container">
+            <h1 class="header_title">What happens tommorrow?</h1>
+            <p class="header_text">The sight of the tumblers restored Bob Sawyer to a degree of
+            equanimity which he had not possessed since his interview with his
+            landlady. His face brightened up, and he began to feel quite
+            convivial.</p>
+            <button class="header_button_video"><i class="fa fa-play fa-lg header_play" aria-hidden="true"></i>Whatch Video</button>
+            <img class="header_iphone" src="./img/header-iPhone6245.png" alt="">
+        </div>
     </header>
-
-
+    
     <!-- #2 -->
-    <section class="Features">
-
-    </section>
-
+    <section class="Features"></section>
 
     <!-- #3 -->
-    <section class="Iphone-features">
-
-    </section>
+    <section class="Iphone-features"></section>
 
     <!-- #4 -->
-    <section class="Map-features">
-
-    </section>
-
+    <section class="Map-features"></section>
 
     <!-- #5 -->
-    <section class="Iphone-screens">
-
-    </section>
-
-    
+    <section class="Iphone-screens"></section>
 
     <!-- #6 -->
-    <section class="Ready-buy">
-
-    </section>
-
+    <section class="Ready-buy"></section>
 
     <!-- #7 -->
-    <section class="Customers">
-
-    </section>
-
+    <section class="Customers"></section>
 
     <!-- #8 -->
-    <section class="Plan">
-
-    </section>
-
+    <section class="Plan"></section>
 
     <!-- #9 -->
-    <section class="Subscribe">
-
-    </section>
-
+    <section class="Subscribe"></section>
 
     <!-- #9 -->
     <footer>
-
+      <section class="footer_section" id="footer_href">
+        <div class="footer_section_social">
+          <div>
+          <a href="#"><img src="img/header_footer_logo.png" alt="#" /></a>
+        </div>
+          <p class="footer_social_text">
+            It was some time before he obtained any answer, and the reply, when
+            made,was unpropitious
+          </p>
+          <div class="footer_social_button">
+            <ul class="footer_button_items">
+              <li class="footer_button_li">
+                 <div class="footer_apple">
+                   <i class="fa fa-apple fa-2x footer_apple_in_btn"></i>
+                     <span class="footer_button_p1">Download on the</span>
+                     <br>
+                   <span class="footer_button_p2"> <h3>App Store</h3></span>
+                 </div>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_social_box_icons">
+            <a class="footer_social_icon" href="https://www.twitter.com"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+            <a class="footer_social_icon" href="https://www.facebook.com"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+            <a class="footer_social_icon" href="https://www.google.com"><i class="fa fa-google-plus fa-lg" aria-hidden="true"></i></a>
+            <a class="footer_social_icon" href="https://www.tumblr.com"><i class="fa fa-tumblr fa-lg" aria-hidden="true"></i></a>
+            <a class="footer_social_icon" href="https://www.pinterest.com"><i class="fa fa-pinterest-p fa-lg" aria-hidden="true"></i></a>
+            <a class="footer_social_icon"href="https://www.linkedin.com"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
+          </div>
+          </div>
+        </div>
+        <div class="footer_contant">
+          <div class="footer_boxs_menu">
+            <ul class="footer_boxs_items">
+              <li><a class="footer_menu" href="">LEARN MORE</a></li>
+            </ul>
+            <h3 class="footer_text">How to works?</h3>
+            <h3 class="footer_text">Meeting tools</h3>
+            <h3  class="footer_text">Leve striming</h3>
+            <h3  class="footer_text">Contat method</h3>  
+          </div>
+            <div class="footer_boxs_menu">
+            <ul class="footer_boxs_items">
+              <li><a class="footer_menu" href="">ABOUT US</a></li>
+            </ul>
+            <h3 class="footer_text">About us</h3>
+            <h3 class="footer_text">Feature</h3>
+            <h3  class="footer_text">Privacy police</h3>
+            <h3  class="footer_text">Tearms & Conditions</h3>  
+          </div>
+           <div class="footer_boxs_menu">
+            <ul class="footer_boxs_items">
+              <li><a class="footer_menu" href="#">SUPPORT</a></li>
+            </ul>
+            <h3 class="footer_text">F.A.Q.</h3>
+            <h3 class="footer_text">Contact us</h3>
+            <h3  class="footer_text">Live chat</h3>
+            <h3  class="footer_text">Phone call</h3>  
+          </div>
+        </div>
+      </section>
+      <section class="footer_section_two">
+        <div class="footer_section_two_http">
+            <p>For more freebies visit:</p>
+            <a class="footer_http" href="http://getcraftwork.com">http://getcraftwork.com</a>
+          </div>
+          <div class="footer_section_two_signature">
+            <p class="footer_signature_text">MADE WITH LOVE BY</p>
+            <div>
+              <a class="footer_signature" href="http://getcraftwork.com"><img src="./img/footer_logo.png" alt="" /></a>
+            </div>
+          </div>
+      </section>
     </footer>
-
-
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/main.js"></script>
-</body>
+  </body>
 </html>
