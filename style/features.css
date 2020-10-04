@@ -32,6 +32,20 @@
   }
 }
 
+.features h2 {
+  margin-top: 40px;
+}
+
 .features .featureTwo p {
-  margin-top: 23px;
+  margin-top: 36px;
+}
+
+.features .featureOne p {
+  margin-top: 33px;
+}
+
+@media (max-width: 979px) {
+  .featureTwo {
+    margin-top: 30px;
+  }
 }
