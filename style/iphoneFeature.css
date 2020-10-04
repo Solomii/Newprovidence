@@ -1,0 +1,100 @@
+.iphoneFeature {
+  display: flex;
+  max-height: 900px;
+}
+
+
+.iphoneFeature div {
+  margin-top: 150px;
+}
+
+
+
+@media (max-width: 1110px) {
+  .iphoneFeature {
+    flex-wrap: wrap;
+    margin-top: 100px;
+    justify-content: center;
+  }
+
+  .iphoneFeatureInfo {
+    margin-right: 100px;
+    text-align: center;
+  }
+}
+
+.tryToHack {
+  width: 202px;
+  height: 42px;
+  background-color: #267df4;
+  border-radius: 21px;
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.tryToHack img {
+  margin-left: 45px;
+}
+
+.learnMore {
+  width: 142px;
+  height: 42px;
+  border: 1px solid #26272d;
+  border-radius: 21px;
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #26272d;
+  margin-left: 20px;
+  background-color: white;
+}
+
+.iphoneFeatureInfo p{
+  font-family: Lato, sans-serif;
+  font-size: 19px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #8c8f94;
+  max-width: 470px;
+}
+
+.iphoneFeatureInfo h2 {
+  font-family: VarelaRound, sans-serif;
+  font-size: 42px;
+  line-height: 52px;
+  font-weight: 400;
+  color: #26272d;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 1111px) {
+  .iphoneFeatureInfo h2 {
+    max-width: 230px;
+  }
+}
+
+.iphoneFeatureInfo {
+  margin-left: 100px;
+}
+
+.iphoneFeatureInfo button {
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.learnMore:hover {
+  border: 1px solid white;
+  color: white;
+  background: #267df4 ;
+}
+
+.tryToHack:hover {
+  color: #267df4;
+  background: white;
+  border: 1px solid #267df4;
+
+}
