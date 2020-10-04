@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="style/features.css">
     <link rel="stylesheet" href="style/iphoneFeature.css">
     <link rel="stylesheet" href="style/mapFeature.css">
+    <link rel="stylesheet" href="style/plan_sub.css">
     <title>NEWPROVIDENCE</title>
   </head>
   <body>
@@ -119,10 +120,64 @@
     <section class="Customers"></section>
 
     <!-- #8 -->
-    <section class="Plan"></section>
+    <section class="Plan">
+        <div class="plan_wrap">
+            <div class="plan">
 
+                <div class="plan_block">
+                    <div class="plan_block_conteiner">
+                        <div class="plan_block__h">Choose your<br> perfect plan</div>
+                        <div class="plan_block__check_text">YOU ARE</div>
+                        <label>
+                            <input id='plan_switcher' type="checkbox">
+                            <span class="check1">Individual</span><span class="check2">Copmany</span>
+                        </label>
+                        <div class="plan_block__text">Thus mach I thought proper to tell you in<br> relation to yourself? and to the trust I<br> reposed in you.</div>
+                        <div class="plan_block__link">Have a bigger team? <a href="#">Let's talk</a></div>
+                    </div>
+                </div>
+
+                <div class="plan_block">
+                    <div class="plan_block__tarif_h" id="plan_tarif_first_name">Starter</div>
+                    <div class="plan_block__tarif_price" id="plan_tarif_first_price">FREE</div>
+                    <div class="plan_block__tarif_text">Build your schedule<br> every day</div>
+                    <ul id='plan_individual_ul' class="plan_block__tarif_list">
+                        <li><img src="img/plan_list_ico.png">Unlimited events</li>
+                        <li><img src="img/plan_list_ico.png">Connect Dropbox & Evernote</li>
+                        <li id="plan_competitive_li"><img src="img/plan_list_ico.png">A lot of advantages</li>
+                    </ul>
+                    <a class="plan_block__button1" href="#" id="plan_tarif_first_button">Get started</a>
+                </div>
+
+                <div class="plan_block">
+                    <div class="plan_block__tarif_h" id="plan_tarif_second_name">Pro</div>
+                    <div class="plan_block__tarif_price" id="plan_tarif_second_price">$4.99</div>
+                    <div class="plan_block__tarif_text">Make your life<br> better</div>
+                    <ul  id='plan_company_ul' class="plan_block__tarif_list">
+                        <li><img src="img/plan_list_ico.png">Unlimited events</li>
+                        <li><img src="img/plan_list_ico.png">Connect Dropbox & Evernote</li>
+                        <li><img src="img/plan_list_ico.png">Personal Assistant</li>
+                        <li id="plan_monopolist_li"><img src="img/plan_list_ico.png">All of advantages</li>
+                    </ul>
+                    <a class="plan_block__button2" href="#" id="plan_tarif_second_button">Make me a Pro</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
     <!-- #9 -->
-    <section class="Subscribe"></section>
+    <section class="Subscribe">
+        <div class="sub_wrap">
+            <div class="sub">
+                <div class="sub_h">Subscribe our newsletters</div>
+                <form class="sub_conteiner" action="#">
+                    <input id="sub_form_input" type="email" placeholder="Your e-mail">
+                    <button id="sub_form_button" type='submit' href="#">Subscribe</button>
+                </form>
+                <div class="sub_text">We promise to never spam you.</div>
+            </div>
+        </div>
+    </section>
 
     <!-- #9 -->
     <footer>
@@ -202,5 +257,6 @@
     </footer>
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/plan_sub.js"></script>
   </body>
 </html>
