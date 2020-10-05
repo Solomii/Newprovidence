@@ -33,10 +33,19 @@
   line-height: 1.2;
   font-weight: 400;
   color: #ffffff;
+  border: none;
 }
 
-.tryToHack img {
-  margin-left: 45px;
+.tryToHack:active {
+  transform: translateY(4px);
+}
+
+.tryToHack .arrowFeature {
+  margin-left: 50px;
+}
+
+.learnMore:active {
+  transform: translateY(4px);
 }
 
 .learnMore {

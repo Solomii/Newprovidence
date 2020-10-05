@@ -11,6 +11,7 @@ body {
     width:100%;
     background:#F4F4F5;
     padding:100px 0;
+    margin-top: 200px;
 }
 .plan {
     max-width:1170px;
@@ -22,6 +23,7 @@ body {
     padding:0 15px;
     box-sizing: border-box;
     min-height:600px;
+
 }
 
 .plan_block:first-child {
