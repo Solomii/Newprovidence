@@ -284,7 +284,6 @@ header {
   }
 
   .menu_items {
-    
     display: flex;
     flex-direction: column;
   }
@@ -307,9 +306,11 @@ header {
     font-weight: 500;
     text-decoration: none;
   }
-  .first{
-    margin-top: -200px;
+
+  .first {
+    margin-top: 20px;
   }
+
   .header_text {
     padding: 0 20px 30px 20px;
   }
