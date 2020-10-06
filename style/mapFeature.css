@@ -1,14 +1,23 @@
 .mapFeature {
-  display: flex;
-  margin-top: 220px;
-  max-height: 900px;
-  justify-content: right;
-  flex-wrap: wrap;
-
+  position: relative;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background: url("../img/mapFeature_\(2\).png") right;
+  background-repeat: no-repeat;
+  
+}
+.mapFeatureContainer{
+  
+  max-width: 1170px;
+  margin: 0 auto;
+  
 }
 
 .mapFeatureContent {
-  margin-right: 75px;
+  margin-top: 50px;
+  padding: 0px 15px 0px 15px;
+ 
 }
 
 .mapFeatureContent h2 {
@@ -17,14 +26,11 @@
   line-height: 52px;
   font-weight: 400;
   color: #26272d;
+  max-width: 279px;
 
 }
 
-@media (min-width: 1128px) {
-  .mapFeatureContent h2 {
-    max-width: 279px;
-  }
-}
+
 
 .mapFeatureContent p {
   font-family: Lato, sans-serif;
@@ -33,7 +39,6 @@
   font-weight: 400;
   color: #8c8f94;
   max-width: 469px;
-
 }
 
 .mapFeaturePartners h6 {
@@ -50,54 +55,6 @@
   margin-left: 35px;
 }
 
-.fullMapFeature {
-  display: none;
-}
-
-@media (max-width: 1127px) {
-  .mapFeature {
-    justify-content: center;
-    margin-left: 75px;
-  }
-  .mapFeaturePhoto {
-    display: none;
-  }
-  .fullMapFeature {
-    display: block;
-    justify-content: center;
-  }
-  .mapFeatureContent {
-    text-align: center;
-
-  }
-
-}
-
-@media (max-width: 1110px) {
-  .mapFeature {
-    margin-top: 600px;
-  }
-}
-
-@media (max-width: 467px) {
-  .mapFeaturePartners a:last-child {
-    margin: 10px 0 0 0;
-  }
-}
-
-@media (max-width: 500px) {
-  .mapFeature {
-    margin-top: 350px;
-  }
-}
-
-@media (max-width: 540px) {
-  .fullMapFeature {
-    display: none;
-  }
-}
-
-
 .mapFeatureContent h2 {
   margin-bottom: 50px;
 }
@@ -112,4 +69,32 @@
 
 .mapFeaturePartners img {
   margin-top: 30px;
+}
+@media (min-width: 1171px) {
+  .mapFeature {
+   
+    background: url("../img/mapFeature.png") right;
+    background-repeat: no-repeat;
+    
+  }
+}
+@media (max-width: 960px) {
+  .mapFeature {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background: none;
+  }
+  .mapFeatureContent {
+  
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 467px) {
+  .mapFeaturePartners a:last-child {
+    margin: 10px 0 0 0;
+  }
 }
