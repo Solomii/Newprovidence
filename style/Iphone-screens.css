@@ -49,7 +49,7 @@
     margin-top: 150px;
     height: 750px;
     width: 100%;
-    background: url(../img/Slider1_Iphone.jpg) center;
+    background: url(../img/Slider1_Iphone.png) center;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
@@ -70,6 +70,11 @@
     
     height: 570px;
     width: 320px;
+    background-repeat: no-repeat;
+}
+.slick-slide{
+ 
+    height: 570px !important;
     background-repeat: no-repeat;
 }
 .Iphone-screens_slider_item0{
@@ -145,9 +150,10 @@
     background-color: #6fc754;
     border-radius: 25px;
     color: white;
+    cursor: pointer;
 }
 .Iphone-screens_form_input_button:hover{
-    border: 1px solid gray;
+    border: 1px solid white;
     background-color: gray;
     transition: 0.8s;
 }
@@ -178,14 +184,23 @@
     align-items: center;
     font-family: 'Lato', sans-serif;
     font-size: 12px;
+    cursor: pointer;
 }
 .Iphone-screens_form_button:focus{
     outline: none;
 }
-.Iphone-screens_form_button:hover{
-    background-color: gray;
-    transition: 0.7s;
+.Iphone-screens_form_button:hover {
+    background-color: white;
+    border-color: black;
+    transition: 0.7s;    
+    color: black;
+    
 }
+.Iphone-screens_form_button:hover .cls-2 {
+    fill: black;
+    
+}
+ 
 
 .Iphone-screens_form_button_Text{
         font-size: 23px;
