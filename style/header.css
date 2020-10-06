@@ -94,7 +94,6 @@ header {
 }
 
 .header_menu_button:hover {
-  /* opacity: 0.9; */
   border: 1px solid #267df4;
   background-color: #fff;
   color: #267df4;
