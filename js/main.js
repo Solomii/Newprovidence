@@ -33,12 +33,8 @@ $(document).ready(function(){
 });
 
 
-let formInput2 = document.getElementById('.Iphone-screens_form_input');
-let formButton2 = document.getElementById('.Iphone-screens_form_input_button');
+let formInput2 = document.getElementById('email');
 
-function clearForm2() {
-    formInput2.value = '';
-}
 
 formInput2.addEventListener('input',function (event) {
     if (formInput2.validity.typeMismatch) {
@@ -50,6 +46,15 @@ formInput2.addEventListener('input',function (event) {
 });
 
 
-$(document).ready(function(){
-    
-});
+let headerHamburgerTour = document.getElementById('header_hamburger_tour');
+let headerHamburgerFeatures = document.getElementById('header_hamburger_features');
+let headerHamburgerPricing = document.getElementById('header_hamburger_pricing');
+let headerHamburgerHelp = document.getElementById('header_hamburger_help');
+let headerHamburgerContacts = document.getElementById('header_hamburger_contacts');
+let headerHamburgerToggle = document.getElementById('header_hamburger_toggle');
+
+let hamburgerMenu = document.getElementById('hamburger_menu');
+
+
+
+

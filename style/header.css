@@ -82,12 +82,12 @@ header {
 .header_menu_button {
   cursor: pointer;
   display: inline-block;
-  padding: 10px 30px;
+  padding: 9px 29px;
   font-size: 18px;
+  border:1px solid #267df4;
   background-color: #267df4;
   border-radius: 21px;
   color: #ffffff;
-  border: none;
   text-decoration: none;
   outline: none;
   position: relative;
@@ -185,7 +185,7 @@ header {
     width: 26px;
     height: 26px;
     cursor: pointer;
-    z-index: 1100;
+    z-index: 1200;
   }
 }
 
@@ -266,7 +266,7 @@ header {
     background-color: #eceff1;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
     transition-duration: 0.25s;
-    z-index: 1000;
+    z-index: 1100;
   }
 
   .hamburger-menu {

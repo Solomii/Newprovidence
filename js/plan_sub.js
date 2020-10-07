@@ -42,9 +42,6 @@ function ifChecked() {
     }
 }
 
-function clearForm() {
-    formInput.value = '';
-}
 
 formInput.addEventListener('input',function (event) {
     if (formInput.validity.typeMismatch) {
@@ -56,6 +53,4 @@ formInput.addEventListener('input',function (event) {
 });
 
 
-
 planSwitcher.addEventListener('change',ifChecked); //змінюєм контент в залежності від положення чекбокса
-formButton.addEventListener('click',clearForm);  //очищаєш форму
