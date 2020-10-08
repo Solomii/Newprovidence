@@ -93,3 +93,25 @@ menuToggle.addEventListener('click',eventHamburgerMenu);
 
 /*обробка роботи гамбургер меню*/
 
+const sectionVideo = document.getElementById ("section_video");
+const containerVideo = document.getElementById ('container_video');
+const HeaderButton = document.getElementById ('Header_button');
+const exBtn = document.getElementById ('Capa_1');
+
+HeaderButton.onclick = function Play(){
+
+    sectionVideo.classList.remove("section_video");
+    sectionVideo.classList.add("active");
+    containerVideo.classList.remove("container_video");
+    containerVideo.classList.add("active");
+
+};
+exBtn.onclick = function exVideo(){
+
+    sectionVideo.classList.remove("active");
+
+    containerVideo.classList.remove("active");
+
+
+};
+
