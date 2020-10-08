@@ -1,7 +1,7 @@
 .iphoneFeature {
   padding-top: 150px;
   padding-bottom: 210px ;
-  background: url("../img/iphoneFeature_\(2\).png") left;
+  background: url("../img/iphoneFeature2.png") left;
   background-repeat: no-repeat;
 
 }
@@ -15,13 +15,10 @@
 }
 
 .iphoneFeatureInfo{
-  margin-top: 0px;
+  margin-top: 0;
   width: 470px;
   
 }
-
-
-
 
 
 .tryToHack {
@@ -85,7 +82,6 @@
 
 
 
-
 .iphoneFeatureInfo button {
   margin-top: 80px;
   cursor: pointer;
@@ -142,6 +138,6 @@
     align-items: center;
   }
   .learnMore {
-    margin-left: 0px; 
+    margin-left: 0;
   }
 }
