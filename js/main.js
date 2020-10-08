@@ -1,3 +1,5 @@
+/*слайдер*/
+
 $(document).ready(function(){
     $('.Iphone-screens_slider').slick({
         slidesToShow: 1,
@@ -32,9 +34,11 @@ $(document).ready(function(){
       }).trigger('afterChange');
 });
 
+/*слайдер*/
+
+/*валідація форми*/
 
 let formInput2 = document.getElementById('email');
-
 
 formInput2.addEventListener('input',function (event) {
     if (formInput2.validity.typeMismatch) {
@@ -45,16 +49,47 @@ formInput2.addEventListener('input',function (event) {
     }
 });
 
+/*валідація форми*/
 
-let headerHamburgerTour = document.getElementById('header_hamburger_tour');
-let headerHamburgerFeatures = document.getElementById('header_hamburger_features');
-let headerHamburgerPricing = document.getElementById('header_hamburger_pricing');
-let headerHamburgerHelp = document.getElementById('header_hamburger_help');
-let headerHamburgerContacts = document.getElementById('header_hamburger_contacts');
-let headerHamburgerToggle = document.getElementById('header_hamburger_toggle');
+/*Плавний якорь*/
 
-let hamburgerMenu = document.getElementById('hamburger_menu');
+const anchors = document.querySelectorAll("a[href*='#']");
 
+for (let anchor of anchors) {
+    anchor.addEventListener('click',function (e) {
+        e.preventDefault();
+        const blockID = anchor.getAttribute('href');
+        document.querySelector('' + blockID).scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        })
+    })
+}
 
+/*Плавний якорь*/
 
+/*обробка роботи гамбургер меню*/
+
+let headerHamburgerMenuBox = document.getElementById('header_hamburger_menu_box');
+let headerHamburgerButton = document.getElementsByName('header_hamburger_button');
+let menuToggle = document.getElementById('menu__toggle');
+
+function eventHamburgerMenu() {
+    if (this.checked) {
+        for (let i = 0 ; i < headerHamburgerButton.length; i++) {
+            headerHamburgerButton[i].onclick = function () {
+                headerHamburgerMenuBox.style.display = 'none';
+                if (headerHamburgerMenuBox.style.display = 'none') {
+                    if (menuToggle.checked) {
+                        menuToggle.checked = !menuToggle.checked;
+                    }
+                }
+            }
+        }
+        headerHamburgerMenuBox.style.display = 'flex';
+    }
+}
+menuToggle.addEventListener('click',eventHamburgerMenu);
+
+/*обробка роботи гамбургер меню*/
 
